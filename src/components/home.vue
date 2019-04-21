@@ -117,25 +117,6 @@ export default {
             }
             return newArr
         },
-
-
-        // a(...args) {
-        //     if(args.length<2){
-        //     return args[0]
-        //     }
-        //     var a=args.shift()
-        //     var b=args.shift()
-        //     var temp=[]
-        //     for (let i = 0,alen; i < alen; i++) {
-        //         for (let j = 0,blen; j < blen; j++) {
-        //             temp.push(a[i]+b[j])
-        //         }
-        //     }
-        //     args.unshift(temp)
-        //     return this.a(...args)
-        //     }
-           
-
     }
 }
 </script>
