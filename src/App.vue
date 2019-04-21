@@ -1,0 +1,25 @@
+<template>
+  <div id="app">
+    <home></home>
+  </div>
+</template>
+
+<script>
+import Home from './components/home'
+
+export default {
+  name: 'app',
+  components: {
+    Home
+  }
+}
+</script>
+<style lang="stylus">
+*
+  margin 0
+  padding 0
+
+  // #app
+  //   background #eee
+
+</style>
